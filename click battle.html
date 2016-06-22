@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Click Battle</title>
+    <link rel="stylesheet" href="/css/Click battle.css"/>
+    <script src = "/js/Click battle.js"></script>
+    <script src = "/js/eventhandler.js"></script>
+  </head>
+  <body>
+    <h2 class="title">Click Battle</h2>
+    <div id="cstart">
+      Enter Name:
+      <input id = "pname" = type="text" name="name" value=""><br>
+      Choose Class:<br>
+      <button class = "pjob" onclick = "startGameTitan()">Titan</button>
+      <button class = "pjob" onclick = "startGameChampion()">Champion</button><br>
+      <button class = "pjob" onclick = "startGamePyromancer()">Pyromancer</button>
+      <button class = "pjob" onclick = "startGameCryomancer()">Cryomancer</button><br>
+      <button class = "pjob" onclick = "startGameArcher()">Archer</button>
+      <button class = "pjob" onclick = "startGameDuelist()">Duelist</button><br>
+      <button class = "init" onclick = "createEnemy()">Submit</button>
+
+
+    </div>
+    <div id= "pcontrol">Player</div>
+    <div id= "ccontrol">Enemy</div>
+    <div id= "pimage">Player picture</div>
+    <div id= "cimage">enemy picture</div>
+
+
+
+  </body>
+</html>
